@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/logo_transparent.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Remote Owner Advisors - Specializing in Landlord Sales. Expert real estate services for landlords, investors, and property owners across the Greater Seattle Area." />
+    <title>Remote Owner Advisors - Specializing in Landlord Sales</title>
+    
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="Remote Owner Advisors - Specializing in Landlord Sales" />
+    <meta property="og:description" content="Expert real estate services for landlords, investors, and property owners across the Greater Seattle Area." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://remoteowneradvisors.com" />
+    <meta property="og:image" content="/logo_transparent.png" />
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Remote Owner Advisors - Specializing in Landlord Sales" />
+    <meta name="twitter:description" content="Expert real estate services for landlords, investors, and property owners across the Greater Seattle Area." />
+    <meta name="twitter:image" content="/logo_transparent.png" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script type="module" crossorigin src="/assets/index-DjILbxpR.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-Cc73Qdpu.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    
+    <!-- MailerLite Universal -->
+    <script>
+      (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){
+      (w[f].q=w[f].q||[]).push(arguments);},
+      l=d.createElement(e),l.async=1,l.src=u,
+      n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);
+      })(window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+      ml('account', '1717105');
+      
+      // Debug: Check MailerLite loading
+      window.addEventListener('load', function() {
+        console.log('=== MailerLite Debug ===');
+        console.log('ml function exists:', typeof ml !== 'undefined');
+        console.log('ml-embedded div exists:', document.querySelector('.ml-embedded') !== null);
+        
+        // Check if form div has content
+        const formDiv = document.querySelector('.ml-embedded');
+        if (formDiv) {
+          console.log('Form div innerHTML length:', formDiv.innerHTML.length);
+          console.log('Form div children count:', formDiv.children.length);
+          console.log('Form div classes:', formDiv.className);
+        }
+        
+        // Check for any errors
+        setTimeout(() => {
+          const formDiv = document.querySelector('.ml-embedded');
+          if (formDiv && formDiv.innerHTML.length < 10) {
+            console.log('⚠️ Form div appears empty - MailerLite may not have loaded properly');
+            console.log('Trying to manually trigger MailerLite...');
+            
+            // Try to manually trigger MailerLite
+            if (typeof ml !== 'undefined') {
+              ml('account', '1717105');
+              console.log('Manually triggered ml account setup');
+            }
+            
+            // Show fallback after another delay
+            setTimeout(() => {
+              const formDiv = document.querySelector('.ml-embedded');
+              if (formDiv && formDiv.innerHTML.length < 10) {
+                console.log('Still empty after manual trigger - showing fallback');
+                const fallback = document.getElementById('mailerlite-fallback');
+                if (fallback) {
+                  fallback.style.display = 'block';
+                }
+              }
+            }, 2000);
+          } else if (formDiv && formDiv.innerHTML.length > 10) {
+            console.log('✅ Form div has content - MailerLite appears to be working');
+          }
+        }, 3000);
+      });
+    </script>
+    <!-- End MailerLite Universal -->
+  </body>
+</html> 
