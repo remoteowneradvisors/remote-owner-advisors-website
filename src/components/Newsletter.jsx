@@ -199,6 +199,11 @@ const Newsletter = () => {
                         </a>
                       </li>
                       <li>
+                        <a href="https://www.zillow.com/home-sale-calculator/" target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:text-primary-700 transition-colors">
+                          Net Proceeds Calculator
+                        </a>
+                      </li>
+                      <li>
                         <a href="https://www.exprealty.com/" target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:text-primary-700 transition-colors">
                           Property Search
                         </a>

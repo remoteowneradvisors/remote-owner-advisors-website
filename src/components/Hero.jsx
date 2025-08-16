@@ -33,9 +33,12 @@ const Hero = () => {
               />
             </div>
           </div>
-          <p className="text-xl md:text-2xl text-secondary-600 mb-8 leading-relaxed">
+          <p className="text-xl md:text-2xl text-secondary-600 mb-4 leading-relaxed">
             Specializing in landlord sales, investor guidance, full-service listings, and buyer representation across the 
             <span className="font-semibold text-primary-600"> Greater Seattle Area</span>
+          </p>
+          <p className="text-lg text-secondary-500 mb-8 font-medium">
+            We speak 中文 (Chinese) and 한글 (Korean)
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
             <button 
